@@ -1,0 +1,26 @@
+{
+  "name": "magentoabu/rolla",
+  "description": "Shopfinder Module for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "homepage": "https://github.com/magento2abu/root",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": {"type": "vcs","url": "https://github.com/magento2abu/rolla"},
+  "require": {
+    "php": "~5.6.0|7.0.*",
+    "magento/framework": "100.1.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mabu\\Shopfinder\\": ""
+    }
+  },
+  "minimum-stability": "alpha",
+  "prefer-stable": true
+}
